@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vietnamština</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    
+    <string-array name="sp_quiz_size_array">
+	    <item>10</item>
+	    <item>20</item>
+	    <item>30</item>	   
+	    <item>40</item>	   
+	    <item>50</item>	   
+	    <item>60</item>	   
+	    <item>70</item>	   	    	    
+	</string-array>
+	<string name="sp_lessons_text">Choose a lesson</string>
+	<string name="tab">\u0009</string>	
+	
+	<string name="global_msg_loaddata">Load data first!</string>
+	
+	<string name="tab_quiz_title">Quiz</string>
+	<string name="tab_quiz_manual_cb">Manual</string>
+	<string name="tab_quiz_start_bt">Start</string>
+	<string name="tab_quiz_answer1_bt">Answer1</string>
+	<string name="tab_quiz_answer2_bt">Answer2</string>
+	<string name="tab_quiz_answer3_bt">Answer3</string>
+	<string name="tab_quiz_submit_bt">Submit</string>	
+	<string name="tab_quiz_next_bt">Next</string>
+	<string name="tab_quiz_msg_textualinput">Select a quiz with textual input!</string>
+	<string name="tab_quiz_msg_score1">Your score is \u0020</string>	
+	<string name="tab_quiz_msg_score2">\u0020 points out of \u0020</string>	
+	<string name="tab_quiz_msg_score3">Do you want to retry?</string>
+	
+	<string name="tab_quiz_msgbox_yes">Yes</string>
+	<string name="tab_quiz_msgbox_no">No</string>
+	<string name="tab_quiz_msg_correct">Correct answer</string>
+	<string name="tab_quiz_msg_wrong">Wrong answer!</string>
+	<string name="tab_quiz_play_bt">Play</string>
+	
+	<string name="tab_learn_title">Learn</string>
+	<string name="tab_learn_previous_bt">Previous Page</string>
+	<string name="tab_learn_next_bt">Next Page</string>
+	
+	<string name="tab_filter_title">Filter Data</string>
+	<string name="tab_filter_score_text">Score</string>
+	<string name="tab_filter_all_text">* All</string>
+	<string name="tab_filter_equals_text">EQUALS \u0020</string>
+	<string name="tab_filter_andcontains_text">AND contains \u0020</string>
+	<string name="tab_filter_andscore_text">AND score is \u0020</string>
+	<string name="tab_filter_filterdata_bt">Filter Data</string>
+	<string name="tab_filter_undofilter_bt">Undo Filter</string>
+	<string name="tab_filter_msg_result">\u0020 lines filtered out of \u0020</string>
+	<string name="tab_filter_msg_undo">\u0020 original lines have been restored</string>
+	
+</resources>

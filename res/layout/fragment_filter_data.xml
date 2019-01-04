@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+<Spinner
+    android:id="@+id/sp_header_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"/>   
+ <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_filter_equals_text" 
+        android:textSize="12sp"/>
+    <Spinner
+    android:id="@+id/sp_value_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"/>  
+ </LinearLayout>
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_filter_andcontains_text" 
+        android:textSize="12sp"/>
+    <EditText
+            android:id="@+id/et_match_pattern"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" 
+            android:textSize="12sp"/>
+ </LinearLayout>
+  <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_filter_andscore_text" 
+        android:textSize="12sp"/>
+    <Spinner
+    android:id="@+id/sp_score_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"/>  
+ </LinearLayout>   
+   
+     <Button
+        android:id="@+id/bt_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tab_filter_filterdata_bt" 
+        android:textSize="12sp"/>  
+     <Button
+        android:id="@+id/bt_reset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tab_filter_undofilter_bt" 
+        android:textSize="12sp"/>          
+</LinearLayout>

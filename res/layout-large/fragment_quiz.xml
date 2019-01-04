@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:weightSum="4">
+
+	    <Spinner
+	        android:id="@+id/sp_quiz_list"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:textSize="14sp" 
+	        android:layout_weight="1"/>	
+	    <Spinner
+	        android:id="@+id/sp_quiz_size_list"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:textSize="14sp" 
+	        android:layout_weight="1"/>
+	    <CheckBox
+		    android:id="@+id/cb_quiz_manual"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent" 
+		    android:textSize="14sp" 
+		    android:text="@string/tab_quiz_manual_cb"
+		    android:layout_weight="1"/>
+	    <Button
+	        android:id="@+id/bt_start_quiz"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/tab_quiz_start_bt" 
+	        android:textSize="14sp"
+	        android:layout_weight="1"/>  
+	</LinearLayout>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" 
+        android:gravity="center"
+        >
+	
+	    <Button
+	       	android:id="@+id/bt_question"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:layout_gravity="center_horizontal"
+	        android:text="@string/tab_quiz_next_bt"
+	        android:textSize="18sp"
+	        />
+
+	    
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="horizontal" >
+	    
+		<EditText
+	            android:id="@+id/et_answer_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="5"
+	            android:inputType="text" 
+	            android:text=""
+	            android:textSize="18sp"
+	            android:layout_weight="1"/>
+		<Button
+	       	android:id="@+id/bt_answer_text"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	        android:text="@string/tab_quiz_submit_bt"
+	        android:textSize="18sp"
+	        android:layout_weight="4"
+	        />
+
+	</LinearLayout>
+
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" 
+        android:weightSum="3">  
+        
+	    <Button
+	        android:id="@+id/bt_play_answer1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:textSize="14sp"
+	        android:layout_weight="2"/>
+	    <Button
+	       	android:id="@+id/bt_answer1"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	       	android:layout_gravity="center_horizontal"
+	        android:text="@string/tab_quiz_answer1_bt"
+	        android:textSize="18sp"
+	        android:layout_weight="1"
+	        />
+
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" 
+        android:weightSum="3"> 
+
+    
+	    <Button
+	        android:id="@+id/bt_play_answer2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:textSize="14sp"
+	        android:layout_weight="2"/>
+	    <Button
+	       	android:id="@+id/bt_answer2"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	       	android:layout_gravity="center_horizontal"
+	        android:text="@string/tab_quiz_answer2_bt"
+	        android:textSize="18sp"
+	        android:layout_weight="1"
+	        />
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" 
+        android:weightSum="3"> 
+    
+	    <Button
+	        android:id="@+id/bt_play_answer3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:textSize="14sp"
+	        android:layout_weight="2"/>
+	    <Button
+	       	android:id="@+id/bt_answer3"
+	       	android:layout_width="fill_parent"
+	       	android:layout_height="wrap_content"
+	       	android:layout_gravity="center_horizontal"
+	        android:text="@string/tab_quiz_answer3_bt"
+	        android:textSize="18sp"
+	        android:layout_weight="1"
+	        />
+
+	</LinearLayout>
+
+</LinearLayout>
